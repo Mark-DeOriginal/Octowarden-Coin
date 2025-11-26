@@ -47,7 +47,7 @@ export default function RootLayout({
     <html lang="en" className={inter.variable}>
       <head>
         <link rel="icon" type="image/svg+xml" href="/favicon.jpg" />
-        <link rel="canonical" href="https://octowardencoin.com/" />
+        <link rel="canonical" href="https://octowarden.online/" />
         <meta property="og:image" content="/opengraph.jpg" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="1200" />
