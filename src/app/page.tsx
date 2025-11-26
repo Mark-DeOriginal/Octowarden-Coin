@@ -214,35 +214,12 @@ export default function Home() {
               </div>
             </div>
             <div className="relative overflow-hidden rounded-3xl border border-[#554f37]/30 bg-gradient-to-br from-[#f6e1b8] via-[#ebcb90] to-[#eecf94] p-8 text-left shadow-2xl shadow-[#d6a757]/30">
-              <div className="space-y-4">
-                <p className="text-sm uppercase tracking-[0.5em] text-[#554f37]">
-                  Mission Map
-                </p>
-                <h3 className="text-2xl font-semibold text-[#0a1116]">
-                  Guard the treasury. Amplify the network.
-                </h3>
-                <p className="text-sm text-[#554f37]">
-                  Guardian crews sync across time zones, run simple playbooks,
-                  and mix bots with human eyes so nothing slips.
-                </p>
-                <div className="mt-6 space-y-3">
-                  {[
-                    "Treasure custody",
-                    "Liquidity cadence",
-                    "Community intel",
-                  ].map((item) => (
-                    <div
-                      key={item}
-                      className="flex items-center justify-between rounded-2xl border border-[#d6a757]/40 bg-white/70 px-4 py-3 text-sm font-semibold text-[#0a1116]"
-                    >
-                      <span>{item}</span>
-                      <span className="text-[#ca9944]">Active</span>
-                    </div>
-                  ))}
-                </div>
-              </div>
-              <div className="pointer-events-none absolute -right-6 -top-6 h-32 w-32 rounded-full border-4 border-[#d6a757]/40" />
-              <div className="pointer-events-none absolute -left-10 bottom-0 h-28 w-28 rounded-full border-2 border-[#d6a757]/20" />
+              <Image
+                src="/coin_logo.jpg"
+                alt="Octowarden_Coin"
+                width={500}
+                height={500}
+              />
             </div>
           </section>
 
